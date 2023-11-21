@@ -52,14 +52,15 @@ ul{
     border-radius: 10px;
 }
 
-/* CARD HEADER*/
-
-.card-header{
+.card-container{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
     border-bottom: 2px solid grey;
 }
+
+/* CARD HEADER*/
+
 
 .card-header-button{
     display: inline-block;
