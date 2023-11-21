@@ -17,6 +17,13 @@ body{
     background-color: grey;
 }
 
+.main-container{
+    width: 70%;
+    margin: 90px auto 0 auto;
+    background-color: white;
+    border: 0 solid white;
+    border-radius: 10px;
+}
 
 /* HEADER */
 
@@ -39,3 +46,18 @@ body{
     font-size: 4.7rem;
 }
 
+/* CARD */
+
+.card-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-bottom: 2px solid grey;
+}
+
+.card-header-button{
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: middle;
+    padding: 10px;
+}
