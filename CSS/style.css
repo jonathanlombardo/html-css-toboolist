@@ -17,12 +17,8 @@ body{
     background-color: grey;
 }
 
-.main-container{
-    width: 70%;
-    margin: 90px auto 0 auto;
-    background-color: white;
-    border: 0 solid white;
-    border-radius: 10px;
+ul{
+    list-style: none;
 }
 
 /* HEADER */
@@ -46,7 +42,17 @@ body{
     font-size: 4.7rem;
 }
 
-/* CARD */
+/* MAIN */
+
+.main-container{
+    width: 70%;
+    margin: 90px auto 0 auto;
+    background-color: white;
+    border: 0 solid white;
+    border-radius: 10px;
+}
+
+/* CARD HEADER*/
 
 .card-header{
     padding-top: 20px;
@@ -61,3 +67,83 @@ body{
     vertical-align: middle;
     padding: 10px;
 }
+
+/* CARD CONTENT */
+
+.task-title::before{
+    content: "▾ ";
+}
+
+li{
+    line-height: 25px;
+}
+
+.check{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tick{
+    color: green;
+    border-color: green;
+}
+
+.cross{
+    color: red;
+    border-color: red;
+}
+
+.task-description{
+    vertical-align: middle;
+}
+
+.badge{
+    border-width: 0;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    height: 25px;
+    font-size: 0.5rem;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.education{
+    border-color: blue;
+    background-color: blue;
+}
+
+.coding{
+    border-color: red;
+    background-color: red;
+}
+
+.recruting{
+    border-color: violet;
+    background-color: violet;
+}
+
+.mobile{
+    border-color: gold;
+    background-color: gold;
+}
+
+.website{
+    border-color: black;
+    background-color: black;
+}
+
+.sales{
+    border-color: orange;
+    background-color: orange;
+}
+
