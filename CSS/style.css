@@ -15,7 +15,7 @@
 /* GENERAL */
 
 body{
-    background-color: grey;
+    background-color: #F6F8F9;
 }
 
 ul{
@@ -31,13 +31,13 @@ ul{
 }
 
 .logo-img{
-    height: 100px;
+    height: 90px;
     vertical-align: middle;
 }
 
 .page-title{
     display: inline-block;
-    font-size: 4.7rem;
+    font-size: 4rem;
     line-height: 120px;
     vertical-align: middle;
 }
@@ -45,8 +45,8 @@ ul{
 /* MAIN */
 
 .main-container{
-    width: 70%;
-    margin: 90px auto 0 auto;
+    width: 75%;
+    margin: 70px auto 0 auto;
     background-color: white;
     border: 0 solid white;
     border-radius: 10px;
@@ -56,17 +56,29 @@ ul{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 50px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #F6F8F9;
+    color: #434750;
 }
 
 /* CARD HEADER*/
 
 
 .card-header-button{
+    color: #CFD4D8;
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid #CFD4D8;
+    border-radius: 5px;
     vertical-align: middle;
     padding: 10px;
+    font-size: 1.2rem;
+}
+
+.card-header-button:hover{
+    color:white;
+    border-color: #47ADF1;
+    background-color: #47ADF1;
+    cursor: pointer;
+
 }
 
 /* CARD CONTENT */
@@ -75,8 +87,15 @@ ul{
     content: "▾ ";
 }
 
+.task-title{
+    margin-top: 30px;
+    font-size: 1.9rem;
+}
+
 li{
     line-height: 25px;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 
 .check{
@@ -104,47 +123,46 @@ li{
     vertical-align: middle;
 }
 
-.badge{
+.badge {
     border-width: 0;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 20px;
     color: white;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    height: 25px;
-    font-size: 0.5rem;
-    padding-left: 3px;
-    padding-right: 3px;
+    font-size: 0.8rem;
+    padding: 5px 7px;
+    font-weight: 600;
 }
 
 .education{
-    border-color: blue;
-    background-color: blue;
+    border-color: #45ABEA;
+    background-color: #45ABEA;
 }
 
 .coding{
-    border-color: red;
-    background-color: red;
+    border-color: #9C72E4;
+    background-color: #9C72E4;
 }
 
 .recruting{
-    border-color: violet;
-    background-color: violet;
+    border-color: #64C0A9;
+    background-color: #64C0A9;
 }
 
 .mobile{
-    border-color: gold;
-    background-color: gold;
+    border-color: #F29E33;
+    background-color: #F29E33;
 }
 
 .website{
-    border-color: black;
-    background-color: black;
+    border-color: #D863A1;
+    background-color: #D863A1;
 }
 
 .sales{
-    border-color: orange;
-    background-color: orange;
+    border-color: #B0C926;
+    background-color: #B0C926;
 }
 
