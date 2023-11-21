@@ -1,0 +1,41 @@
+/* DEBUG */
+
+
+
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+body{
+    background-color: grey;
+}
+
+
+/* HEADER */
+
+.page-header{
+    background-color: white;
+    line-height: 120px;
+    padding-left: 20px;
+}
+
+.page-header > *{
+    vertical-align: middle;
+}
+
+.logo-img{
+    height: 100px;
+}
+
+.page-title{
+    display: inline-block;
+    font-size: 4.7rem;
+}
+
